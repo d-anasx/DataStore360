@@ -32,16 +32,18 @@ there types are :
 ### suggested business rules
 Customer Name → personal data
 
-Discount > 100% → invalid
+Discount > 100% → invalid  --not found
 
-Quantity < 0 → invalid
+Quantity < 0 → invalid   --found
 
-Ship Date < Order Date → invalid
+Ship Date < Order Date → invalid   --found
 
-Missing values → must be analyzed and treated
+Missing values → must be analyzed and treated   --found
 
-Duplicates → must be detected and treated
+Duplicates → must be detected and treated  --found
 
-Invalid date formats → must be detected
+Invalid date formats → must be detected  --found
 
-Values outside logical ranges → must be detected
+Values outside logical ranges → must be detected  --found
+
+

@@ -1,6 +1,10 @@
-import __init__
+import dataframe
 
+df = dataframe.df
+#deleting duplicated
 
-#deleting duplicated with keeping the the first
+# df_no_dup = df.drop_duplicates()
+# df_no_dup.to_csv('data/processed/store_data.csv')
 
-__init__.df
+print(df.isna().sum())
+
