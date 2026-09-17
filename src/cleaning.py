@@ -1,4 +1,4 @@
 
 
-print(df.isna().sum())
+
 
